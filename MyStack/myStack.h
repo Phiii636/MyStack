@@ -10,12 +10,11 @@ namespace my
 	{
 	private:
 		vector<T> arr;
-
 	public:
 		Stack();
 		size_t size() const;
 		bool is_empty() const;
-		void push(T input);
+		void push(const T& input);
 		void pop();
 		T& top();
 	};

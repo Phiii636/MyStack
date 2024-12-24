@@ -25,7 +25,7 @@ namespace my
 	
 	//»Î’ª
 	template<class T>
-	void Stack<T>::push(T input)
+	void Stack<T>::push(const T& input)
 	{
 		arr.push_back(input);
 	}
